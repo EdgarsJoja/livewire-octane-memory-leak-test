@@ -1,4 +1,6 @@
 <div>
+    Used memory: {{ get_memory() }}
+
     @if($type === 'laravel')
         <x-laravel-memory-test />
     @elseif($type === 'livewire')

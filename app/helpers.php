@@ -11,6 +11,6 @@ function get_variable_memory($variable): string
 
 function get_memory(): string
 {
-    $mbs = memory_get_usage(true) / (1024 * 1024);
+    $mbs = (int)(memory_get_usage(true) / (1024 * 1024));
     return "$mbs MB";
 }
