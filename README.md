@@ -12,3 +12,5 @@ Repeatedly reloading page (20+) does NOT increase memory usage (seen in dump out
 
 Go to `/memory-test/livewire`.
 Repeatedly reloading page increases memory usage, eventually it will crash due to memory exhaustion error.
+
+![Demonstration](test.gif)
