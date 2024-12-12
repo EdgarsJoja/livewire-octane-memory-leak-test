@@ -1,5 +1,6 @@
 ## Setup
 
+Clone repository and run:
 ```bash
 ./run.sh
 ```
