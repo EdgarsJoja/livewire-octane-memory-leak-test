@@ -1,4 +1,4 @@
-<div>
+<div class="container">
     Timestamp: {{ time() }}
     <br />
     Used memory: {{ get_memory() }}
@@ -11,4 +11,16 @@
         Type: {{ $type }}
         path must be `/memory-test/laravel` or `/memory-test/livewire`
     @endif
+
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        .container {
+            display: grid;
+            place-content: center;
+            height: 100%;
+        }
+    </style>
 </div>
