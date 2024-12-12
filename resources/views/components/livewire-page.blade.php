@@ -1,4 +1,6 @@
 <div>
+    Timestamp: {{ time() }}
+    <br />
     Used memory: {{ get_memory() }}
 
     @if($type === 'laravel')
