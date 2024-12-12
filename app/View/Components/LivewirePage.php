@@ -9,6 +9,8 @@ use Livewire\Component;
 
 class LivewirePage extends Component
 {
+    use MemoryFootprintLogger;
+
     public string $type = '';
 
     public function mount(string $type = '')

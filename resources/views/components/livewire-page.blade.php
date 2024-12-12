@@ -4,7 +4,7 @@
     @elseif($type === 'livewire')
         <livewire:livewire-memory-test />
     @else
-        Type: {{ $type }} {{ memory_get_usage(true) }}
+        Type: {{ $type }}
         path must be `/memory-test/laravel` or `/memory-test/livewire`
     @endif
 </div>

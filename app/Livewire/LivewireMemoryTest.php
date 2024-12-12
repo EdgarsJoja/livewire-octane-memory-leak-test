@@ -7,7 +7,7 @@ use App\Debug\MemoryFootprintLogger;
 
 class LivewireMemoryTest extends Component
 {
-    use MemoryFootprintLogger;
+//    use MemoryFootprintLogger;
 
     public array $largeArray = [];
 
