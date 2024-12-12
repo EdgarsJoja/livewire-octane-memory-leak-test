@@ -1,18 +1,8 @@
 ## Setup
 
 ```bash
-composer install
-npm ci
-
-# Choose frankenphp
-php artisan octane:install
-
-php artisan octane:frankenphp --watch
-npm run dev
+./run.sh
 ```
-
-In `.env` change `CACHE_STORE` and `SESSION_DRIVER` both to be `file`. 
-Laravel defaults to sqlite DB, don't need it here.
 
 ## Testing
 
