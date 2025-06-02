@@ -14,6 +14,9 @@ class LivewireMemoryTest extends Component
     public function mount(): void
     {
         $this->largeArray = array_fill(0, 1000000, 0);
+
+//        Cleanup using defer function seems to fix memory leak.
+//        defer(fn() => $this->largeArray = []);
     }
 
     public function render()
